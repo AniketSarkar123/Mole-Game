@@ -1,0 +1,39 @@
+body{
+    font-family: "Protest Guerrilla";
+    font-weight: bold;
+    text-align: center;
+    background: url("mario-bg.jpg");
+    background-size: cover;
+
+}
+
+#board{
+    height: 540px;
+    width: 540px;
+    background: url("soil.png");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#board div{
+    height: 180px;
+    width: 180px;
+    background: url("pipe.png");
+    background-size: cover;
+}
+
+#board div img {
+    /* all img tags inside tiles */
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
